@@ -1,0 +1,123 @@
+.menu {
+    padding: 50px 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.ormcntmain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.orm h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.orm h1 span {
+    color: rgb(110, 66, 0);
+}
+
+.ormsub p {
+    color: #666;
+    font-size: 16px;
+}
+
+.seall {
+    background-color: rgb(110, 66, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.seall:hover {
+    background-color: rgb(85, 45, 0);
+    transform: scale(1.05);
+}
+
+.sixcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    width: 90%;
+    margin: auto;
+}
+
+.card {
+    background-color: #ffefe1;
+    width: 380px;
+    height: 440px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.imgcdiv {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    border: 5px solid rgb(110, 66, 0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .imgcdiv {
+    transform: scale(1.1);
+}
+
+.imgcdiv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 15px 0;
+}
+
+.stars {
+    color: gold;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.buy-now {
+    background-color: #ff5e5e;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.buy-now:hover {
+    background-color: #e04848;
+    transform: scale(1.1);
+}

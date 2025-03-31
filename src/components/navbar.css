@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+ 
+    font-style: normal;
+}
+
+.foodleName h1 {
+    font-weight: 500;
+    font-size: 42px;
+}
+
+header {
+    background-color: #fffcf2;
+    display: flex;
+    height: 130px;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+
+.uls ul {
+    display: flex;
+    gap: 66px;
+}
+
+.uls ul li a {
+    font-size: 24px;
+    opacity: 0.8;
+    color: #666;
+    position: relative;
+}
+
+
+.uls ul li a.active {
+    opacity: 1;
+    color: #000000;
+    font-weight: 540;
+}
+
+
+.uls ul li a.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(110, 66, 0);
+    transition: width 0.3s ease-in-out;
+}
+
+
+.LoginSignUpBtn ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.LoginSignUpBtn ul li a {
+
+    color: #000000;
+    font-size: 22px;
+    padding: 20px;
+    font-weight: 500;
+}
+
+button {
+    border-radius: 40px;
+    width: 140px;
+    height: 60px;
+  
+    background-color: rgb(255, 229, 191);
+    border-color: rgb(255, 172, 48);
+    color: #a1444a;
+    color: #000000;
+
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+
+}
+.cartlogodiv{
+    position: absolute;
+    right:60px;
+    color: rgb(255, 172, 48);
+    img{
+        color: red;
+    }
+}
+.hw1{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    
+
+}
+.hw11{
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    margin:40px 0px 0px 120px; 
+}
+.hw1111{
+
+    width: 700px;
+
+    line-height: 110px;
+    word-spacing: 8px;
+    h1{
+        font-size: 70px;
+         color: rgb(253, 162, 26);
+              font-family: "Akaya Kanadaka", system-ui;
+            font-weight: 940;
+        font-style: normal;
+    }
+}
+.hw1112{
+    h2{
+        color: grey;
+        opacity: 0.7;
+    }
+}
+.hw12{
+    img{
+        width: 1000px;
+        height:800px;
+    }
+}
+.HomeWrapper{
+    height: 100vh;
+    background-color: #fffcf2;
+}
+.hw112{
+    display: flex;
+    gap: 40px;
+    button{
+        padding:12px ;
+        height:70px;
+        width: 160px;
+        border-radius: 40px;
+        border-color:rgb(253, 162, 26) ;
+    }
+    .bdl{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        img{
+            background-color: rgb(253, 162, 26);
+            padding:1px ;
+            border-radius:40px;
+            width: 40px;
+            height: 40px;
+            
+        }
+    }
+}

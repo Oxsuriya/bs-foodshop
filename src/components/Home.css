@@ -1,0 +1,118 @@
+.fffcontainer{
+    display: flex;
+  
+    box-shadow: 0px 5px 10px 5px rgba(128, 128, 128, 0.5);
+    border-radius:40px ;
+    margin: auto;
+    gap: 250px;
+    align-items: center;
+    justify-content: center;
+    background-color:  #fffcf2;
+    width: 1800px;
+    height: 250px;
+    img{
+        width: 70px;
+        height: 65px;
+    }
+}
+.fcone{
+    display: flex;
+   
+    justify-content: center;
+    gap: 20px;
+  
+    height: 100%;
+    padding:50px;
+    p{
+        width: 200px;
+        color: rgb(104, 104, 104);
+    }
+    .fastdel{
+        h2{
+            margin-bottom:12px;
+            font-size:32px;
+        }
+        display: flex;
+        flex-direction: column;
+    }
+    .fastdelimg{
+        width: 80px;
+        padding: 50px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(255, 190, 93) ;
+    }
+}
+.fctwo{
+    display: flex;
+    
+    justify-content: center;
+    gap: 20px;
+    padding:50px;
+   
+    p{
+        width: 200px;
+        color: rgb(104, 104, 104);
+
+
+    }
+    .freshfoodimg{        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color:rgb(255, 190, 93) ;
+    }
+    .freshfood{
+        h2{
+            font-size:32px;
+            margin-bottom:12px;
+
+        }  
+    }
+}
+.fcthree{
+    display: flex;
+
+    justify-content: center;
+    gap: 20px;
+    padding:50px;
+ 
+    p{
+        width: 200px;
+        color: rgb(104, 104, 104);
+
+    }   
+    .freedelimg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color:rgb(255, 190, 93) ;
+    }
+    .freedel{
+        h2{
+            font-size:32px;
+            margin-bottom:12px;
+
+        }  
+    }
+}
+.foodlespan{
+    color:rgb(110, 66, 0)
+}
+.hw13{
+    position: absolute;
+    top: 20%;
+    transform: scale(2);
+    left: 44%;
+}
